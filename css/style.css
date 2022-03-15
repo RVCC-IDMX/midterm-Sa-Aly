@@ -1,0 +1,49 @@
+/* Journey to the Center of the Earth Practicum */
+/*Seif Aly */
+
+body{
+    background-color: #a39a9a;
+    border: 5px solid;
+    border-color:#836953 ;
+    box-shadow: 7px 7px 7px;
+}
+
+header {
+    margin-top: 5px;
+    font-size: xx-large;
+    padding-top: 5px;
+    text-align:center;
+    background-color: #836953;
+    box-shadow: 10px 10px 10px
+
+}
+nav {
+    text-align:center;
+    font-family: 'Times New Roman';
+margin: 0px;
+border: 10px solid;
+border-color: #a0785a;
+background-color: #a39a9a;
+box-shadow: 10px 10px 10px;
+padding-top: 0rem;
+
+}
+
+h2 {
+font-size: 50px;
+border-bottom: dotted;
+
+}
+
+
+
+main img {
+float: left;
+margin-right: 30px;
+
+}
+
+main{
+    text-align: justify;
+
+}
