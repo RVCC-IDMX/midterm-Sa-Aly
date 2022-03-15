@@ -45,5 +45,9 @@ margin-right: 30px;
 
 main{
     text-align: justify;
+}
 
+#cryptogram {
+    float:left;
+    
 }
