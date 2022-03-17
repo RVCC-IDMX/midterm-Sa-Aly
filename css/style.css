@@ -4,7 +4,7 @@
 body{
     background-color: #a39a9a;
     border: 5px solid;
-    border-color:#836953 ;
+    border: color #765729; ;
     box-shadow: 7px 7px 7px;
 }
 
@@ -13,33 +13,40 @@ header {
     font-size: xx-large;
     padding-top: 5px;
     text-align:center;
-    background-color: #836953;
+    background-color: #765729;
     box-shadow: 10px 10px 10px
 
 }
 nav {
     text-align:center;
     font-family: 'Times New Roman';
+    font-size: large;
 margin: 0px;
 border: 10px solid;
-border-color: #a0785a;
+border-color: #765729;
 background-color: #a39a9a;
 box-shadow: 10px 10px 10px;
 padding-top: 0rem;
+
 
 }
 
 h2 {
 font-size: 50px;
 border-bottom: dotted;
+}
 
+.character{
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 6px;
 }
 
 
-
-main img {
+#cover {
 float: left;
 margin-right: 30px;
+width: 250px;
 
 }
 
@@ -48,6 +55,32 @@ main{
 }
 
 #cryptogram {
-    float:left;
-    
+margin-left: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 100%;
+margin-bottom: 50px;
 }
+
+aside {
+    border: solid;
+    border-top: 8px solid; 
+    border-color: #4e3f33;
+    margin-top: 70px;}
+
+.submission {
+border: 1px solid;
+border-bottom: 1px solid;
+}
+
+
+
+footer{
+padding-top: 5px;
+ text-align: center;
+ border: 5px solid;
+ box-shadow: 4px 4px 4px 4px;
+ margin-top: 20px;
+}
+   
