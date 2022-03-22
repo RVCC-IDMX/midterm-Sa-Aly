@@ -17,6 +17,7 @@ header {
     box-shadow: 10px 10px 10px
 
 }
+
 nav {
     text-align:center;
     font-family: 'Times New Roman';
@@ -42,24 +43,32 @@ border-bottom: dotted;
     margin-right: 6px;
 }
 
+.lang{
+    font-style: italic;
+}
+
+
 
 #cover {
 float: left;
 margin-right: 30px;
 width: 250px;
-
+display: flex;
+align-items: center;
 }
 
 main{
     text-align: justify;
+   
 }
 
 #cryptogram {
-margin-left: 500px;
+    text-align: center;
+align-items: center;
 display: flex;
 flex-direction: column;
-align-items: center;
-max-width: 100%;
+
+
 margin-bottom: 50px;
 }
 
@@ -83,4 +92,20 @@ padding-top: 5px;
  box-shadow: 4px 4px 4px 4px;
  margin-top: 20px;
 }
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+    figcaption {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    
+
+
    
