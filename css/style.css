@@ -148,6 +148,10 @@ size-adjust: auto;
     figcaption {
         display: flex;
         justify-content: center;
+        font-family: georgia;
+        font-size: 12px;
+        margin-top: 5px;
+        font-style: italic;
     }
 
   @media screen and (min-width: 1024px) {
